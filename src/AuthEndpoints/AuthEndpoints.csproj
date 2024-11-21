@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Description>A simple jwt auth library for Asp.Net 6 that provides a set of web api controllers and minimal api endpoints to handle authentication actions</Description>
+    <Version>2.2.0</Version>
+    <Authors>yeogaa02</Authors>
+    <Company>yeogaa02</Company>
+    <PackageProjectUrl>https://github.com/madeyoga/AuthEndpoints</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/madeyoga/AuthEndpoints</RepositoryUrl>
+    <PackageTags>jwt;json-web-token;endpoints;asp-net-core;2fa</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

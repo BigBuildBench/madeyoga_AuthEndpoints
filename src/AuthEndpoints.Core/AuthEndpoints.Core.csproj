@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>2.2.0</Version>
+    <Description>AuthEndpoints core services</Description>
+    <PackageProjectUrl>https://github.com/madeyoga/AuthEndpoints</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/madeyoga/AuthEndpoints</RepositoryUrl>
+    <PackageTags>authendpoints;jwt;json-web-token</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+
+</Project>
